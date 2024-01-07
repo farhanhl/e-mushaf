@@ -1,0 +1,41 @@
+name: e_mushaf
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_easyloading: ^3.0.5
+  flutter_screenutil: ^5.7.0
+  get_storage: ^2.0.3
+  dio: ^4.0.6
+  http: ^0.13.5
+  lottie: 2.3.2
+  font_awesome_flutter: ^10.4.0
+  just_audio: ^0.9.36
+  sqflite: ^2.2.8+4
+  path_provider: ^2.1.1
+  path: ^1.8.2
+  scroll_to_index: ^3.0.1
+  double_back_to_close_app: ^2.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: '^0.13.1'
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: 'launcher_icon'
+  image_path: 'assets/icons/icon.png'
+
+flutter:
+  assets:
+    - assets/lotties/
+    - assets/images/
+  uses-material-design: true

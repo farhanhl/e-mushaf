@@ -1,0 +1,4 @@
+enum MetodeSimpan {
+  terakhirDibaca,
+  penanda,
+}
